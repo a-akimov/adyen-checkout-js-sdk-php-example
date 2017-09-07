@@ -1,15 +1,7 @@
 /* Add your custom CSS styling here */
 
 
-
-
-
-
-
-
-
-/* Page specific styling */
-
+/* Page styling */
 .content {
     float: left;
     position: relative;
@@ -21,3 +13,15 @@
     width: 60%;
 }
 
+.checkout-container {
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.checkout {
+    margin: 0 auto;
+    position: relative;
+    width: 60%;
+}

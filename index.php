@@ -43,7 +43,7 @@ include ('config/timezone.php');
                 </p>
             </div>
 
-            <div class="container">
+            <div class="checkout-container">
                 <div class="checkout">
 
                 </div>
