@@ -1,0 +1,1 @@
+# adyen-checkout-js-sdk-php-example
