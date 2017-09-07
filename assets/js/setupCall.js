@@ -13,9 +13,7 @@ $(document).ready(function() {
     }
 
     function initiateCheckout(jsonResponse) {
-
-        console.log(jsonResponse);
-
+        
         var checkout = chckt.checkout(jsonResponse, '.checkout', hostedFieldStyle);
     }
 
