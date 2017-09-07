@@ -3,14 +3,12 @@ $(document).ready(function() {
     // Call to the php file, performing the server call to checkoutshopper.adyen.com
 
 
+    // Send styling to securedFields, for more information: https://docs.adyen.com/developers/checkout-javascript-sdk/styling-secured-fields
     var hostedFieldStyle = {
         base: {
-            fontSize: '16px',
-            lineHeight: '16px',
-            fontSmoothing: 'antialiased',
-            fontFamily: '"Fakt", sans-serif, arial'
+            fontSize: '16px'
         }
-    }
+    };
 
     function initiateCheckout(jsonResponse) {
 
