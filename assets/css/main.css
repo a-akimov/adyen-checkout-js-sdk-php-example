@@ -1,0 +1,23 @@
+/* Add your custom CSS styling here */
+
+
+
+
+
+
+
+
+
+/* Page specific styling */
+
+.content {
+    float: left;
+    position: relative;
+}
+
+.explanation {
+    margin: 20px auto 0;
+    position: relative;
+    width: 60%;
+}
+

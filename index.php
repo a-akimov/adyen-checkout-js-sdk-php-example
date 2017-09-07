@@ -49,9 +49,6 @@ include ('config/timezone.php');
                 </div>
             </div>
         </div>
-        <? if ($authentication['merchantAccount'] != null) {
-            echo('<script src = "assets/js/setupCall.js" ></script >');
-        }
-        ?>
+        <script src = "assets/js/setupCall.js" ></script >
     </body>
 </html>
