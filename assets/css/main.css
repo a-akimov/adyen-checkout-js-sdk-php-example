@@ -26,3 +26,13 @@
     position: relative;
     width: 60%;
 }
+
+@media (max-width: 520px) {
+    .explanation {
+        width: 100%;
+    }
+
+    .checkout {
+        width: 100%;
+    }
+}
