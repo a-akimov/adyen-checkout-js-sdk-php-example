@@ -2,18 +2,18 @@
 
 ## Requirements
 To run this web checkout example, edit the following PHP variables in the <b>config/authentication.php</b> file:<br/>
+These variables can be found in our customer area, for more information visit our<a href="https://docs.adyen.com/support/getting-started/step-1-create-a-test-account">getting started guide</a>.<br/>
 
-<b>$merchantAccount</b>: 'YOURMERCHANTACCOUNT', more information in our 
-<a href="https://docs.adyen.com/support/getting-started/step-1-create-a-test-account">Getting started guide</a>.<br/>
+<b>$merchantAccount</b>: 'YOURMERCHANTACCOUNT'. <br/>
 <b>$checkoutAPIkey</b>: 'YOUR CHECKOUT API KEY'.: 'YOUR CHECKOUT API KEY'.
 
-## Deploying this example to Heroku
+## Installation
 
-To give you a 
+### Deploying this example to Heroku
+
+To give you a server example, we provide you with a deploy to heroku button.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Adyen/adyen-checkout-js-sdk-php-example)
-
-## Installation
   
 Alternatively, you could clone this repository and deploy it on your own PHP server
 
