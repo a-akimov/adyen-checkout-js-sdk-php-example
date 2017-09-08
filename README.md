@@ -1,10 +1,10 @@
 # Checkout SDK PHP server example
 
 ## Requirements
-To run this web checkout example, edit the following PHP variables in the <b>config/authentication.php</b> file:</h3>
+To run this web checkout example, edit the following PHP variables in the <b>config/authentication.php</b> file:<br/>
 
 <b>$merchantAccount</b>: 'YOURMERCHANTACCOUNT', more information in our 
-<a href="https://docs.adyen.com/support/getting-started/step-1-create-a-test-account">Getting started guide</a>.
+<a href="https://docs.adyen.com/support/getting-started/step-1-create-a-test-account">Getting started guide</a>.<br/>
 <b>$checkoutAPIkey</b>: 'YOUR CHECKOUT API KEY'.: 'YOUR CHECKOUT API KEY'.
 
 ## Deploying this example to Heroku
