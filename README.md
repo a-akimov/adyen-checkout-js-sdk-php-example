@@ -13,11 +13,11 @@ For more information visit our <a href="https://docs.adyen.com/support/getting-s
 
 ### Deploying this example to Heroku
 
-To give you a server example, we provide you with a deploy to heroku button.
+Use this shortcut to deploy to Heroku:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Adyen/adyen-checkout-js-sdk-php-example)
   
-Alternatively, you could clone this repository and deploy it to your own PHP server
+Alternatively, clone this repository and deploy it to your own PHP server
 
 ## Documentation
 
