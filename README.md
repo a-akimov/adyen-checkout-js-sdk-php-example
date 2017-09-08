@@ -5,7 +5,7 @@ To run this web checkout example, edit the following PHP variables in the <b>con
 These variables can be found in our customer area, for more information visit our <a href="https://docs.adyen.com/support/getting-started/step-1-create-a-test-account">getting started guide</a>.<br/>
 
 <b>$merchantAccount</b>: 'YOURMERCHANTACCOUNT'. <br/>
-<b>$checkoutAPIkey</b>: 'YOUR CHECKOUT API KEY'.: 'YOUR CHECKOUT API KEY'.
+<b>$checkoutAPIkey</b>: 'YOUR CHECKOUT API KEY'.
 
 ## Installation
 
