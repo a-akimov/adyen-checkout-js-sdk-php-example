@@ -13,7 +13,7 @@
   "env": {
     "MERCHANT_ACCOUNT": {
       "description": "Your merchant account",
-      "generator": "secret"
+      "generator": false
     },
     "CHECKOUT_API_KEY": {
       "description": "Your checkout API key",
