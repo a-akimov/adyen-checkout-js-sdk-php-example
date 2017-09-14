@@ -7,8 +7,8 @@ Always ask a back-end developer to create an implementation of our checkout prod
 ## Requirements
 To run this web checkout example, edit the following variables in the <b>config/authentication.ini</b> file:<br/>
 
-<b>$merchantAccount</b>= "YOURMERCHANTACCOUNT". <br/>
-<b>$checkoutAPIkey</b>= "YOUR CHECKOUT API KEY". <br/>
+<b>merchantAccount</b>= "YOURMERCHANTACCOUNT". <br/>
+<b>checkoutAPIkey</b>= "YOUR CHECKOUT API KEY". <br/>
 
 These variables can be found in our customer area.
 For more information visit our <a href="https://docs.adyen.com/support/getting-started/step-1-create-a-test-account">getting started guide</a>.<br/>
