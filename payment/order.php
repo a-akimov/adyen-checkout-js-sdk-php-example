@@ -1,18 +1,39 @@
 <?php
 /**
+ *                       ######
+ *                       ######
+ * ############    ####( ######  #####. ######  ############   ############
+ * #############  #####( ######  #####. ######  #############  #############
+ *        ######  #####( ######  #####. ######  #####  ######  #####  ######
+ * ###### ######  #####( ######  #####. ######  #####  #####   #####  ######
+ * ###### ######  #####( ######  #####. ######  #####          #####  ######
+ * #############  #############  #############  #############  #####  ######
+ *  ############   ############  #############   ############  #####  ######
+ *                                      ######
+ *                               #############
+ *                               ############
+ *
+ * Adyen Checkout Example (https://www.adyen.com/)
+ *
+ * Copyright (c) 2017 Adyen BV (https://www.adyen.com/)
+ *
+ */
+
+/**
  * Set up / edit your order on this page
  * For more information, refer to the checkout API documentation: https://docs.adyen.com/developers/in-app-integration/checkout-api-reference */
 
 /** @int value - Put the value into minor units 120 = 1.20 (for USD), for decimal information per currency see: https://docs.adyen.com/developers/currency-codes */
 $value = 120;
+
 /** @var  $currencyCode - Change this to any currency you support: https://docs.adyen.com/developers/currency-codes */
 $currencyCode = 'USD';
 
 /** @array $amount - Amount is a combination of value and currency */
-$amount = array (
+$amount = [
     'value' => $value,
     'currency'=> $currencyCode,
-);
+];
 
 /** @var $reference - order number */
 $reference = 'order_id';
@@ -33,7 +54,7 @@ $channel = 'Web';
 $sessionValidity = date('Y-m-d\TH:i:s\Z', strtotime('+1 hour'));
 
 
-return array(
+return [
     'amount' => $amount,
     'channel' => $channel,
     'countryCode' => $countryCode,
@@ -41,4 +62,4 @@ return array(
     'shopperReference' => $shopperReference,
     'shopperLocale' => $shopperLocale,
     'reference' => $reference,
-);
+];

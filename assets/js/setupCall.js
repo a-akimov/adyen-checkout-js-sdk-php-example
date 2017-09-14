@@ -25,7 +25,6 @@ $(document).ready(function() {
         },
 
         error : function(){
-
             if(window.console && console.log){
                 console.log('### adyenCheckout::error:: args=', arguments);
             }
