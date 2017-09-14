@@ -25,7 +25,12 @@ include('../config/timezone.php');
 
 global $jsSetupResponse;
 
-$authentication = parse_ini_file('../config/authentication.ini', true);
+if (!empty (getenv('MERCHANT_ACCOUNT')) && !empty(getenv('CHECKOUT_API_KEY'))) {
+    $authentication['merchantAccount'] = getenv('MERCHANT_ACCOUNT');
+    $authentication['checkoutAPIkey'] = getenv('CHECKOUT_API_KEY');
+} else {
+    $authentication = parse_ini_file('../config/authentication.ini', true);
+}
 
 $order = include('../payment/order.php');
 $server = include('../config/server.php');
