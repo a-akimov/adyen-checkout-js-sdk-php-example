@@ -1,5 +1,5 @@
 {
-  "name": "Adyen PHP Checkout server example",
+  "name": "Adyen checkout php example",
   "description": "A php server example containing our Javascript SDK",
   "keywords": [
     "Adyen",
