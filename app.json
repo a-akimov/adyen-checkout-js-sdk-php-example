@@ -1,0 +1,13 @@
+{
+  "name": "Adyen PHP Checkout server example",
+  "description": "A php server example containing our Javascript SDK",
+  "keywords": [
+    "Adyen",
+    "payments",
+    "checkout",
+    "Javascript",
+    "SDK"
+  ],
+  "website": "https://www.adyen.com/",
+  "repository": "https://github.com/Adyen/adyen-checkout-js-sdk-php-example",
+}
