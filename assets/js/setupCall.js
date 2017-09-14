@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    var stayHidden = false;
+
     // Call to the php file, performing the server call to checkoutshopper.adyen.com
 
     // Send styling to securedFields, for more information: https://docs.adyen.com/developers/checkout-javascript-sdk/styling-secured-fields
@@ -10,12 +12,18 @@ $(document).ready(function() {
     };
 
     var explanationDiv = $('.explanation');
+    explanationDiv.hide();
+
+    function showExplanation() {
+        if (stayHidden === true) {
+            explanationDiv.removeClass('hidden');
+        }
+    }
+
+    window.setTimeout(showExplanation(), 4000);
 
     function initiateCheckout(jsonResponse) {
-
         var checkout = chckt.checkout(jsonResponse, '.checkout', hostedFieldStyle);
-
-        explanationDiv.hide();
     }
 
     $.ajax({
@@ -25,6 +33,7 @@ $(document).ready(function() {
         type:'POST', //jQuery < 1.9
         success:function(data){
             initiateCheckout(data);
+            stayHidden = true;
         },
 
         error : function(){

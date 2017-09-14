@@ -36,7 +36,7 @@ include ('config/timezone.php');
 </head>
 <body class="body">
 <div class="content">
-    <div class="explanation">
+    <div class="explanation hidden">
         <h3>To run this web checkout example, edit the following variables in the <b>config/authentication.ini</b> file:</h3>
         <p>
             <b>merchantAccount</b>= "YOUR MERCHANT ACCOUNT", more information in our <a href="https://docs.adyen.com/support/getting-started/step-1-create-a-test-account">Getting started guide</a>.<br/>
