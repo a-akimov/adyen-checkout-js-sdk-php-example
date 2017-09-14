@@ -1,5 +1,9 @@
 # Checkout SDK PHP server example
 
+## This repository is for demo purposes only
+This PHP server example is intended to help developers to get quickly up and running with our Javascript SDK. <br/>
+Always ask your back-ender to create a proper implementation of our checkout product.
+
 ## Requirements
 To run this web checkout example, edit the following variables in the <b>config/authentication.ini</b> file:<br/>
 
