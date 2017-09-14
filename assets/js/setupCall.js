@@ -2,7 +2,6 @@ $(document).ready(function() {
 
     // Call to the php file, performing the server call to checkoutshopper.adyen.com
 
-
     // Send styling to securedFields, for more information: https://docs.adyen.com/developers/checkout-javascript-sdk/styling-secured-fields
     var hostedFieldStyle = {
         base: {
@@ -10,9 +9,13 @@ $(document).ready(function() {
         }
     };
 
+    var explanationDiv = $('.explanation');
+
     function initiateCheckout(jsonResponse) {
 
         var checkout = chckt.checkout(jsonResponse, '.checkout', hostedFieldStyle);
+
+        explanationDiv.hide();
     }
 
     $.ajax({
