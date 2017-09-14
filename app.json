@@ -12,10 +12,12 @@
   "repository": "https://github.com/Adyen/adyen-checkout-js-sdk-php-example",
   "env": {
     "MERCHANT_ACCOUNT": {
-      "description": "Your merchant account"
+      "description": "Your merchant account",
+      "generator": "secret"
     },
     "CHECKOUT_API_KEY": {
-      "description": "Your checkout API key"
+      "description": "Your checkout API key",
+      "generator": "secret"
     }
   }
 }
