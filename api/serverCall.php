@@ -92,10 +92,8 @@ function requestPaymentData($order, $server, $authentication)
     // Closing
     curl_close($curlAPICall);
 
-    $jsSetupResponse = json_encode($result);
-
     // When this file gets called by javascript or another language, it will respond with a json object
-    echo $jsSetupResponse;
+    echo $result;
 }
 
 requestPaymentData($order, $server, $authentication);
